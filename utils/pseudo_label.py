@@ -20,6 +20,7 @@ def main(args):
 
     net_out, _ = unet(net_in, keep_prob, 3, num_parts + num_connections,
                       is_training=is_training, features_root=64, alpha=1 / 5.5)
+    tv = tf.image.total_variation(net_out)
 
     restore_op, restore_dict = tf.contrib.framework.assign_from_checkpoint(
         args.model_dir + "/model.ckpt",
@@ -36,11 +37,12 @@ def main(args):
 
     for i in range(max_it):
         img, label, _, _ = b.get_batch()
-        output = sess.run(net_out, feed_dict={net_in: img, is_training: False})
+        output, total_variation = sess.run([net_out, tv], feed_dict={net_in: img, is_training: False})
         assert output[0].shape[0] == 256
         assert output[0].shape[1] == 320
         assert output[0].shape[2] == 9
-        np.save(os.path.join(args.output_dir, b.name_list[0] + ".npy"), output[0])
+        if total_variation > 1000 or 700 > total_variation > 400:
+            np.save(os.path.join(args.output_dir, b.name_list[0] + ".npy"), output[0])
 
     print("Done.")
 
