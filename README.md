@@ -2,6 +2,7 @@
 Code for the paper "Deep Attention Based Semi-Supervised 2D-Pose Estimation for Surgical Instruments"
 
 ![](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/README/Endovis.gif)
+![](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/README/RMIT.gif)
 
 ## Abstract
 
