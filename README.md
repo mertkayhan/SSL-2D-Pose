@@ -10,4 +10,5 @@ For many practical problems and applications, it is not feasible to create a vas
 * Scripts that were used to generate target heatmaps are provided in the [utils](https://github.com/mertkayhan/SSL-2D-Pose/tree/master/utils) folder
 * Models can be evaluated using [evaluate.py](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/evaluate.py) after training.
 * Training can be performed using [train.py](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/train.py)
+
 `python train.py --batch_size 5 --gpu_id 0 --root <data-folder> --use_vat <toggle-vat> --use_mean_teacher <toggle-mean-teacher> --use_pseudo_labels <pseudo-labeling> --dataset<RMIT|ENDOVIS>`
