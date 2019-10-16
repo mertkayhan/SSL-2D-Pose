@@ -7,4 +7,4 @@ For many practical problems and applications, it is not feasible to create a vas
 
 ## Running the Code
 
-* Scripts that were used to generate target heatmaps are provided in the <b>utils<\b> folder
+* Scripts that were used to generate target heatmaps are provided in the <b>utils<b> folder
