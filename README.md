@@ -17,4 +17,9 @@ For many practical problems and applications, it is not feasible to create a vas
 
 `python train.py --batch_size 5 --gpu_id 0 --root <data-folder> --use_vat <toggle-vat> --use_mean_teacher <toggle-mean-teacher> --use_pseudo_labels <pseudo-labeling> --dataset <RMIT|ENDOVIS>`
 
+## Citation
+
+Please cite the following article if you use this code: 
+<b>TODO
+
 
