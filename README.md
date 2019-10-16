@@ -1,8 +1,10 @@
 # Deep Attention Based Semi-Supervised 2D-Pose Estimation
 Code for the paper "Deep Attention Based Semi-Supervised 2D-Pose Estimation for Surgical Instruments"
 
-![](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/README/Endovis.gif)
-![](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/README/RMIT.gif)
+![](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/README/Endovis.gif=100x20)
+![](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/README/RMIT.gif=100x20)
+
+Figure: Example demonstration of the test set results can be seen in the above provided videos.
 
 ## Abstract
 
