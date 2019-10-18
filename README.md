@@ -4,7 +4,7 @@ Code for the paper "Deep Attention Based Semi-Supervised 2D-Pose Estimation for 
 ![](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/README/Endovis.gif)
 ![](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/README/RMIT.gif)
 
-Figure: Example demonstration of the test set results can be seen in the above provided videos.
+Figure: Example demonstration of the test set results can be seen in the above provided videos. (Left: Endovis dataset, Right: RMIT dataset)
 
 ## Abstract
 
