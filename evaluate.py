@@ -244,40 +244,7 @@ def evaluate_ENDOVIS(root, model):
                         # print(cost_matrix[r, c])
                     else:
                         false_pos[k] += 1
-
-            # print(false_neg)
-            # print(false_pos)
-            # print(final_prediction)
-            #print(loc_true)  # ; return
-            
-
-            """
-            img_ = img[0].copy() * 127.5 + 127.5
-            img_ = img_.astype("uint8")
-
-            colors = [(0, 0, 255), (255, 0, 0), (0, 255, 0), (255, 255, 0), (0, 255, 255)]
-            if not parse_failed:
-                if b.batch_instrument_count[0] == 1:
-                    for pred in final_prediction:
-                        for i, c in enumerate(pred):
-                            if c != ():
-                                img_ = cv2.circle(img_, (int(c[0]), int(c[1])), 2, colors[i], -1)
-                else:
-                    for i, pred in enumerate(final_prediction):
-                        for c in pred:
-                            if c != ():
-                                img_ = cv2.circle(img_, (int(c[0]), int(c[1])), 2, colors[i], -1)
-            else:
-                for i, centers in enumerate(final_prediction):
-                    # print(centers)
-                    for c in centers:
-                        if c != ():
-                            img_ = cv2.circle(img_, (int(c[0]), int(c[1])), 2, colors[i], -1)
-            cv2.imwrite("output_frames/{}.png".format(b.name_list[0]), img_[:, :, (2, 1, 0)])
-            """
-            # x = np.clip(blur.sum(axis=-1) * 255, 0, 255)
-            # cv2.imwrite("output_frames/{}.png".format(b.name_list[0]), x.astype("uint8"))
-        
+                        
         f1 = lambda p, r: (2 * p * r) / (p + r)
         p = precision(false_pos, true_pos)
         r = recall(false_neg, true_pos)
