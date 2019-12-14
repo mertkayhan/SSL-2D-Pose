@@ -34,5 +34,5 @@ Please cite the following article if you use this code:
   author={Kayhan, Mert and K{\"o}p{\"u}kl{\"u}, Okan and Sarhan, Mhd Hasan and Yigitsoy, Mehmet and Eslami, Abouzar and Rigoll, Gerhard},
   journal={arXiv preprint arXiv:1912.04618},
   year={2019}
-}
+}`
 
