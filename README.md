@@ -23,7 +23,16 @@ For many practical problems and applications, it is not feasible to create a vas
 * Models can be evaluated using [evaluate.py](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/evaluate.py) after training. (Post-processing labels are relevant for the evaluation script and these labels should be saved in `$ROOT/training_labels_postprocessing` and `$ROOT/test_labels_postprocessing` respectively.)
 * Training can be performed using [train.py](https://github.com/mertkayhan/SSL-2D-Pose/blob/master/train.py).
 
-`python train.py --batch_size 5 --gpu_id 0 --root <data-folder> --use_vat <toggle-vat> --use_mean_teacher <toggle-mean-teacher> --use_pseudo_labels <pseudo-labeling> --dataset <RMIT|ENDOVIS>`
+```bash
+python train.py \
+--batch_size 5 \
+--gpu_id 0 \
+--root <data-folder> \
+--use_vat <toggle-vat> \
+--use_mean_teacher <toggle-mean-teacher> \
+--use_pseudo_labels <pseudo-labeling> \
+--dataset <RMIT|ENDOVIS>
+```
 
 ## Citation
 
