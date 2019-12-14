@@ -28,6 +28,12 @@ For many practical problems and applications, it is not feasible to create a vas
 ## Citation
 
 Please cite the following article if you use this code: 
-<b>TODO
+
+@article{kayhan2019deep,
+  title={Deep Attention Based Semi-Supervised 2D-Pose Estimation for Surgical Instruments},
+  author={Kayhan, Mert and K{\"o}p{\"u}kl{\"u}, Okan and Sarhan, Mhd Hasan and Yigitsoy, Mehmet and Eslami, Abouzar and Rigoll, Gerhard},
+  journal={arXiv preprint arXiv:1912.04618},
+  year={2019}
+}
 
 
