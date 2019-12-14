@@ -7,7 +7,7 @@ Code for the paper "[Deep Attention Based Semi-Supervised 2D-Pose Estimation for
 </div>
 
 
-Figure: Example demonstration of the test set results can be seen in the above provided videos. (Left: Endovis dataset, Right: RMIT dataset)
+Figure: Example demonstration of the test set results can be seen in the above provided videos. (Left: [Endovis dataset](https://endovissub-instrument.grand-challenge.org/), Right: [RMIT dataset](https://sites.google.com/site/sznitr/code-and-datasets))
 
 ## Abstract
 
